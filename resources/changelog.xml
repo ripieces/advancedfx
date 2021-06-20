@@ -6,6 +6,18 @@
 
 <release>
 <name>HLAE</name>
+<version>2.117.0</version>
+<time>2021-06-20T12:52Z</time>
+<changes>
+<change type="updated">Updated hlae.exe from .NET 4.0 Client to .NET 4.5.</change>
+<change type="updated">Fixed config lock not working as intended after saving.</change>
+<change type="updated">Included AfxHookGoldSrc 2.12.0 (2021-06-20T12:52Z).</change>
+</changes>
+</release>
+
+
+<release>
+<name>HLAE</name>
 <version>2.116.0</version>
 <time>2021-06-04T09:39Z</time>
 <changes>

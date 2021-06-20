@@ -25,7 +25,7 @@
 #include "hooks/hw/R_DrawViewModel.h"
 #include "hooks/hw/R_RenderView.h"
 #include "hooks/client/cstrike/CrossHairFix.h"
-#include "hooks/DemoPlayer/DemoPlayer.h"
+#include "mirv_time.h"
 
 #include "AfxSettings.h"
 #include "supportrender.h"
@@ -314,7 +314,7 @@ void Filming::OnR_RenderView(float vieworg[3], float viewangles[3], float & fov)
 
 	if(m_CamPath.Enabled_get() && m_CamPath.CanEval())
 	{
-		double time = g_DemoPlayer->GetDemoTime();
+		double time = Mirv_GetDemoTimeOrClientTime();
 
 		// no extrapolation:
 		if(m_CamPath.GetLowerBound() <= time && time <= m_CamPath.GetUpperBound())

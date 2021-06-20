@@ -4,7 +4,7 @@
 
 #include "filming.h"
 
-#include "hooks/DemoPlayer/DemoPlayer.h"
+#include "mirv_time.h"
 #include "hooks/HookHw.h"
 
 #include "hlaeFolder.h"
@@ -111,7 +111,7 @@ void CCampathDrawer::Draw(float width, float height, float origin[3], float angl
 	{
 		CamPath *camPath = g_Filming.GetCamPath();
 
-		double curTime = g_DemoPlayer->GetDemoTime() - camPath->GetOffset();
+		double curTime = Mirv_GetDemoTimeOrClientTime() - camPath->GetOffset();
 		bool inCampath = 1 <= camPath->GetSize()
 			&& camPath->GetLowerBound() <= curTime
 			&& curTime <= camPath->GetUpperBound();

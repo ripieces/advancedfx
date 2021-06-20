@@ -3,7 +3,7 @@
 #include "cmdregister.h"
 #include "filming.h"
 #include "CampathDrawer.h"
-#include "hooks/DemoPlayer/DemoPlayer.h"
+#include "mirv_time.h"
 #include "hooks/HookHw.h"
 #include <shared/StringTools.h>
 #include <shared/MirvCampath.h>
@@ -15,16 +15,16 @@ class CMirvCampath_Time : public IMirvCampath_Time
 {
 public:
 	virtual double GetTime() {
-		return g_DemoPlayer->GetDemoTime();
+		return Mirv_GetDemoTimeOrClientTime();
 	}
 	virtual double GetCurTime() {
-		return g_DemoPlayer->GetDemoTime();
+		return Mirv_GetDemoTimeOrClientTime();
 	}
 	virtual bool GetCurrentDemoTick(int& outTick) {
 		return false;
 	}
 	virtual bool GetCurrentDemoTime(double& outDemoTime) {
-		outDemoTime = g_DemoPlayer->GetDemoTime();
+		outDemoTime = Mirv_GetDemoTimeOrClientTime();
 		return outDemoTime;
 	}
 	virtual bool GetDemoTickFromTime(double curTime, double time, int& outTick) {

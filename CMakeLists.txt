@@ -35,6 +35,8 @@ include(ExternalProject)
 add_subdirectory("deps/release/zlib")
 add_subdirectory("deps/release/protobuf")
 add_subdirectory("deps/release/openexr")
+add_subdirectory("deps/release/injector_bin")
+
 add_subdirectory("AfxCppCli")
 
 ExternalProject_Add("shaderbuilder"
@@ -51,7 +53,6 @@ set(shaderbuilder_BINARY_DIR "${CMAKE_BINARY_DIR}/ShaderBuilder/${CMAKE_CFG_INTD
 
 add_subdirectory("AfxHookGoldSrc")
 add_subdirectory("AfxHookSource")
-add_subdirectory("injector")
 add_subdirectory("hlae")
 
 

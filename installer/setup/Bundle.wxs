@@ -5,7 +5,7 @@
   <!-- Update this on release: Version -->
   <Bundle
     Name="HLAE Installer"
-    Version="2.116.0"
+    Version="2.117.0"
     Manufacturer="advancedfx.org"
     UpgradeCode="{35C8D990-6C4F-4639-ADF7-D259B06E070B}"
     AboutUrl="https://www.advancedfx.org/"

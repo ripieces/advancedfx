@@ -3,7 +3,7 @@ cmake_minimum_required (VERSION 3.8)
 project ("hlae")
 
 set(hlae_VERSION_MAJOR 2)
-set(hlae_VERSION_MINOR 116)
+set(hlae_VERSION_MINOR 117)
 set(hlae_VERSION_PATCH 0)
 set(hlae_VERSION_REVISON 0)
 

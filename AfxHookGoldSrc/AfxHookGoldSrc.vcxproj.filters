@@ -333,6 +333,9 @@
     <ClCompile Include="..\deps\release\halflife\utils\common\mathlib.c">
       <Filter>deps\release\halflife\utils\common</Filter>
     </ClCompile>
+    <ClCompile Include="mirv_time.cpp">
+      <Filter>AfxHookGoldSrc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="aiming.h">
@@ -561,6 +564,9 @@
       <Filter>shared</Filter>
     </ClInclude>
     <ClInclude Include="GameRecord.h">
+      <Filter>AfxHookGoldSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="mirv_time.h">
       <Filter>AfxHookGoldSrc</Filter>
     </ClInclude>
   </ItemGroup>

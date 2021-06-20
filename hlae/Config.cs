@@ -428,7 +428,7 @@ public class Config
 
                     m_Fs = fi.Open(FileMode.Open, FileAccess.ReadWrite, FileShare.Read);
 
-                    writer = new StreamWriter(m_Fs);
+                    writer = new StreamWriter(m_Fs, default, default, true);
                 }
                 else
                 {
@@ -446,7 +446,7 @@ public class Config
 
             if (null != writer)
             {
-                if (filePath.Equals(m_CfgPath) && null != m_Fs)
+                if (!otherPath && null != m_Fs)
                 {
                     writer.Dispose();
                 }

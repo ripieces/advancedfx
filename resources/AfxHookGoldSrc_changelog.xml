@@ -6,10 +6,20 @@
 
 <release>
 <name>AfxHookGoldSrc</name>
+<version>2.12.0</version>
+<time>2021-06-20T12:52Z</time>
+<changes>
+<change type="updated">Make campath use client time if not playing demo.</change>
+</changes>
+</release>
+
+
+<release>
+<name>AfxHookGoldSrc</name>
 <version>2.11.6</version>
 <time>2021-04-12T06:47Z</time>
 <changes>
-<change type="added">Fix GoldSrc AGR gait sequence export regression.</change>
+<change type="fixed">Fix GoldSrc AGR gait sequence export regression.</change>
 </changes>
 <comments>
 Please note that the in-eye model of the CS 1.6 knife will be wrong, which is because the engine mirrors the model with cl_righthand 1 and the current AGR format can not express mirroring (same problem you would have for other v_models with cl_righthand 0).
@@ -22,7 +32,7 @@ Please note that the in-eye model of the CS 1.6 knife will be wrong, which is be
 <version>2.11.5</version>
 <time>2021-04-11T04:49Z</time>
 <changes>
-<change type="added">Fix GoldSrc AGR export again, sigh.</change>
+<change type="fixed">Fix GoldSrc AGR export again, sigh.</change>
 </changes>
 <comments>
 Please note that the in-eye model of the CS 1.6 knife will be wrong, which is because the engine mirrors the model with cl_righthand 1 and the current AGR format can not express mirroring (same problem you would have for other v_models with cl_righthand 0).
@@ -35,7 +45,7 @@ Please note that the in-eye model of the CS 1.6 knife will be wrong, which is be
 <version>2.11.4</version>
 <time>2021-04-10T04:47Z</time>
 <changes>
-<change type="added">Fix GoldSrc AGR gait sequence export.</change>
+<change type="fixed">Fix GoldSrc AGR gait sequence export.</change>
 </changes>
 </release>
 
@@ -45,7 +55,7 @@ Please note that the in-eye model of the CS 1.6 knife will be wrong, which is be
 <version>2.11.3</version>
 <time>2021-04-09T05:05Z</time>
 <changes>
-<change type="added">Multiple GoldSrc AGR fixes.</change>
+<change type="fixed">Multiple GoldSrc AGR fixes.</change>
 </changes>
 </release>
 

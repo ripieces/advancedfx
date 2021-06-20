@@ -317,6 +317,7 @@
     <ClCompile Include="mirv_commands.cpp" />
     <ClCompile Include="mirv_glext.cpp" />
     <ClCompile Include="mirv_info.cpp" />
+    <ClCompile Include="mirv_time.cpp" />
     <ClCompile Include="move_to.cpp" />
     <ClCompile Include="newsky.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -407,6 +408,7 @@
     <ClInclude Include="mdt_media.h" />
     <ClInclude Include="mirv_commands.h" />
     <ClInclude Include="mirv_glext.h" />
+    <ClInclude Include="mirv_time.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Store.h" />
     <ClInclude Include="supportrender.h" />

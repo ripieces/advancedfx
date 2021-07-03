@@ -6,6 +6,27 @@
 
 <release>
 <name>HLAE</name>
+<version>2.118.0</version>
+<time>2021-07-03T06:50Z</time>
+<changes>
+<change type="fixed">Fixed saving / updating of HLAE config.</change>
+<change type="updated">Installer: Updated latest FFMPEG version.</change>
+</changes>
+</release>
+
+
+<release>
+<name>HLAE</name>
+<version>2.117.1</version>
+<time>2021-06-26T15:04Z</time>
+<changes>
+<change type="updated">Included AfxHookSource 1.97.0 (2021-06-26T15:04Z).</change>
+</changes>
+</release>
+
+
+<release>
+<name>HLAE</name>
 <version>2.117.0</version>
 <time>2021-06-20T12:52Z</time>
 <changes>

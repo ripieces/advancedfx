@@ -724,6 +724,7 @@ void CommandSystem::AddCurves(IWrpCommandArgs* args)
 		}
 		else if (0 == _stricmp("time", args->ArgV(1)))
 		{
+			tick = false;
 		}
 		else {
 			Tier0_Warning("AFXERRORR: Expected time or tick.\n");

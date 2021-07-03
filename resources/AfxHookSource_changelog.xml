@@ -6,6 +6,16 @@
 
 <release>
 <name>AfxHookSource</name>
+<version>1.97.0</version>
+<time>2021-06-26T15:04Z</time>
+<changes>
+<change type="fixed">Fixed #680 mirv_cmd addCurves time not working and a typo.</change>
+</changes>
+</release>
+
+
+<release>
+<name>AfxHookSource</name>
 <version>1.96.0</version>
 <time>2021-06-04T09:39Z</time>
 <changes>

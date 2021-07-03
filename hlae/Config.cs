@@ -428,7 +428,7 @@ public class Config
 
                     m_Fs = fi.Open(FileMode.Open, FileAccess.ReadWrite, FileShare.Read);
 
-                    writer = new StreamWriter(m_Fs, default, default, true);
+                    writer = new StreamWriter(m_Fs, System.Text.Encoding.UTF8, 1024, true);
                 }
                 else
                 {

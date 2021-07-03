@@ -16,10 +16,10 @@
         <Control Id="FfmpegVersion" Type="ComboBox" X="6" Y="86" Width="358" Height="16" Property="FFMPEG_VERSION" ComboList="yes" Sorted="yes" Disabled="no" Hidden="no">
           <ComboBox Property="FFMPEG_VERSION">
             <ListItem Text="!(loc.FfmpegDlgCustom)" Value="custom"/>
-            <ListItem Text="latest-win64-static-gpl //github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2021-04-30-12-35" Value="latest-win64-static" />
-            <ListItem Text="latest-win64-shared-gpl //github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2021-04-30-12-35" Value="latest-win64-shared" />
-            <ListItem Text="latest-win64-static-lgpl //github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2021-04-30-12-35" Value="latest-win64-static-lgpl" />
-            <ListItem Text="latest-win64-shared-lgpl //github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2021-04-30-12-35" Value="latest-win64-shared-lgpl" />
+            <ListItem Text="latest-win64-static-gpl //github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2021-06-30-12-38" Value="latest-win64-static" />
+            <ListItem Text="latest-win64-shared-gpl //github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2021-06-30-12-38" Value="latest-win64-shared" />
+            <ListItem Text="latest-win64-static-lgpl //github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2021-06-30-12-38" Value="latest-win64-static-lgpl" />
+            <ListItem Text="latest-win64-shared-lgpl //github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2021-06-30-12-38" Value="latest-win64-shared-lgpl" />
             <ListItem Text="20200915-latest-win64-static-gpl //github.com/advancedfx/ffmpeg.zeranoe.com-builds-mirror/" Value="20200915-latest-win64-static" />
             <ListItem Text="20200915-latest-win64-shared-gpl //github.com/advancedfx/ffmpeg.zeranoe.com-builds-mirror/" Value="20200915-latest-win64-shared" />
             <ListItem Text="4.3-win64-static-gpl //github.com/advancedfx/ffmpeg.zeranoe.com-builds-mirror/" Value="4.3-win64-static" />
